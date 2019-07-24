@@ -15,10 +15,10 @@ public class PatternSyntaxChecker {
         while (testCases > 0) {
             String pattern = in.nextLine();
             //Write your code
-            try{
+            try {
                 Pattern pt = Pattern.compile(pattern);
                 System.out.println("Valid");
-            }catch (Exception e){
+            } catch (Exception e) {
                 System.out.println("Invalid");
             }
             testCases--;
